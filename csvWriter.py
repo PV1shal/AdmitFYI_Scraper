@@ -7,7 +7,7 @@ class CsvWriter(object):
             print('No data to write')   
             return
         
-        file_path = r'C:\UNI\DataMining\Project\scrapper\AdmitFYI_Scraper\Scraped_Dataset\scraped_data.csv'
+        file_path = r'Scraped_Dataset\scraped_data.csv'
         file_exits = os.path.exists(file_path)
         
         with open(file_path, 'a', encoding='utf-8', newline='') as file:

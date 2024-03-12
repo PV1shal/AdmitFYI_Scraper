@@ -27,6 +27,7 @@ class Scraper(object):
         
         while True:
             
+            # Wait for the table to load, kept 5 seconds for now
             time.sleep(5)
             
             html = driver.page_source
